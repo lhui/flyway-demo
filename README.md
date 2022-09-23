@@ -9,7 +9,7 @@ docker run --name mysql -d  -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password --resta
 
 单独启动 flyway 程序
 ```bash
-java -jar  -flyway 
-
+chmod +x build-and-run-flyway.sh
+sh build-and-run-flyway.sh
 ```
 
